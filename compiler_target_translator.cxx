@@ -9,7 +9,7 @@ extern vector<string> literals;
 extern int yyparse();
 
 //
-// author - Kaustubh Hiware, 14CS30011
+// author - Kaustubh Hiware
 //
 
 void printLiner(int lim){
