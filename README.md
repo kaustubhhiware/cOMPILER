@@ -15,7 +15,7 @@ Test your own tiny-c file with :
 ./a.out < testfile.c  test_s_file_name
 gcc -c test_s_file_name.s -o test_o_file_name.o
 gcc test_o_file_name.o -L. -g -lmylib -o test.out
-.test.out</pre>
+./test.out</pre>
 P.S : The compiler assumes your tiny c file is correct, so if a segmentation fault is faced, make sure your test file is tiny-c compatible.
 
 The quads generated for this program can be found in the test folder.
